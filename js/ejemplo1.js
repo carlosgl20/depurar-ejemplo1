@@ -13,7 +13,14 @@ var nombres=[];
 var NUMERO_NOMBRES=10;
 
 
+for (var i = 0; i<= 10; i++) {
 
+    var nombre = prompt("Añadir un nombre");
+    nombres.push(nombre);
+
+}
+
+console.info("Estos son los nombres: " + nombre + ", ")
 
 /* AVISOS (WARNING) */
 console.warn("Mensaje warn");
